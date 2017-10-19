@@ -1,8 +1,10 @@
 package test.gamelofd.com.demogithub;
 
-/**
- * Created by DELL on 10/19/2017.
- */
+
 
 public class ClassA {
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
