@@ -5,4 +5,8 @@ package test.gamelofd.com.demogithub;
  */
 
 public class ClassC {
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
